@@ -18,7 +18,8 @@ pipeline {
 				echo "Integration Test"
 			}
 		}
-	} post {
+	} 
+	post {
 		always {
 			echo 'This build is successful'
 		}
